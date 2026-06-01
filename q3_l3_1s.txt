@@ -1,0 +1,29 @@
+inicio
+//DECLARACAO
+declare S e P como string
+declare i, contador como inteiro
+
+tamanhoS <- comprimento(S)
+tamanhop <- comprimento(P)
+contador <- 0
+
+//LEITURA DA STRING
+leia S
+leia P
+
+//COMPARAÇAO DE 2 STRING 
+para i <- 0 até (tamanhos - tamanho) faça
+//S = banana e P = ana (tamanhoP = 3) ;s[1 .. 1+3-1] = ana, logo contador ++
+
+sub <- S[i..i+tamanhoP-1]
+
+//condicional pra contador=+1
+se sub = P então
+contador <- contador + 1
+
+fimse
+fimpara
+
+escrever "p aparece" contador "vezes"
+
+fim
